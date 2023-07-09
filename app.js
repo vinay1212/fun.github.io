@@ -8,8 +8,8 @@ no_btn.addEventListener('click', () => {
     const random_left = Math.floor(Math.random() * container.clientWidth);
     const random_top = Math.floor(Math.random() * container.clientHeight);
 
-    // if (random_left >= container.clientWidth / 2)
-    //     no_btn.style.left = `${random_left - no_btn.clientWidth}px`;
+    if (random_left >= container.clientWidth / 2)
+        no_btn.style.left = `${random_left - no_btn.clientWidth}px`;
     
     if (random_top >= container.clientHeight / 2)
         no_btn.style.top = `${random_top - no_btn.clientHeight}px`;
