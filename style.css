@@ -10,7 +10,7 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
-    background-color: #0e0e0e;
+    background-color: #d29f9f79;
 }
 
 .container {
@@ -37,5 +37,6 @@ button {
     background-color: rgba(0, 0, 0, .5);
     border: .15rem solid rgba(255, 255, 255, 1);
     color: #fff;
+    border-radius: 15px;
     cursor: pointer;
 }
