@@ -19,5 +19,6 @@ yes_btn.addEventListener('click', () => {
     container.innerHTML = `<h2>
                             I knew it!!! <br>
                             Lol 😂😂😂
+                            koi naa i loveee youu for this...
                             </h2>`
 })
